@@ -1,0 +1,519 @@
+/* Large desktops and laptops */
+@media (min-width: 1150px) {
+  body {font-size: 16px;}
+}
+
+/* Portrait tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+  body {font-size: 15px;}
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+  body {font-size: 14px;}
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+  body {font-size: 12px;}
+}
+
+/* Landscape phones and smaller */
+@media (max-width: 480px) {
+  body {font-size: 10px;}
+}
+
+/* Carousel background */
+
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: 'Raleway', sans-serif;
+}
+.carousel {
+	margin-bottom: 5em;
+}
+.carousel-caption {
+	z-index: 10;
+}
+/*.carousel .carousel-inner .dark-background {
+	background: url('http://i.imgur.com/wGahMvj.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.carousel .carousel-inner .light-background {
+	background: url('http://i.imgur.com/X2PU0Z9.jpg') no-repeat center center fixed;
+	-webkit-background-size: cover; 
+  -moz-background-size: cover;    
+  -o-background-size: cover;      
+  background-size: cover;    
+}
+*/
+/* Fade transition */
+
+.carousel .item {
+	-webkit-transition: opacity 0.5s; 
+	-moz-transition: opacity 0.5s; 
+	-ms-transition: opacity 0.5s; 
+	-o-transition: opacity 0.5s; 
+	transition: opacity 0.5s;
+}
+.carousel .active.left {
+	left: 0;
+	opacity: 0;
+	z-index: 2;
+}
+.carousel .active.right {
+	left: 0;
+	opacity: 0;
+	z-index: 2;
+}
+.carousel .next {
+	left: 0;
+	opacity: 1;
+	z-index: 1;
+}
+.carousel .prev {
+	left: 0;
+	opacity: 1;
+	z-index: 1;
+}
+
+/* Content positioning */
+
+.home-heading-position {
+  position: static;
+  padding-top: 1em;
+  margin: 0 auto 0 auto;
+  text-align: center;
+  font-size: 550%;
+  font-weight: 700;
+  line-height: 1em;
+}
+
+.icons {
+	padding: 0;
+	margin: 1.5em auto 2em auto;
+	text-align: center;
+}
+
+.medium-heading {
+  width: 700px;
+  max-width: 100%;
+  text-align: center; 
+  border-bottom: 1px solid #000; 
+  line-height: 0.1em;
+  margin: 2em auto 0 auto;
+  font-size: 200%;
+} 
+
+.medium-heading span { 
+  background: #fff;
+  padding: 0 10px; 
+}
+
+.medium-story {
+	width: 700px;
+  max-width: 100%;
+  margin: auto;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  overflow: auto;
+  border-bottom: 1px solid #000; 
+}
+
+.medium-story a {
+	text-decoration: none;
+	color: black;
+}
+
+.medium-image {
+	float: left;
+}
+
+.medium-image img {
+	width: 11em;
+}
+
+.medium-title {
+	float: left;
+	margin-left: 1em;
+	width: calc(100% - 9em);
+	font-size: 1.4em;
+	font-weight: 700;
+}
+
+.medium-caption {
+	float: left;
+	margin-top: 0.5em;
+	margin-left: 1.4em;
+	width: calc(100% - 12.6em);
+}
+
+.email-signup {
+	width: 700px;
+  max-width: 100%;
+	margin: auto;
+	text-align: center;
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+
+.row div {
+	text-align: center;
+	margin: 1em 0 1em 0;
+}
+
+.heading-position {
+  position: static;
+  margin: 0.9em auto 0 auto;
+  text-align: center;
+  font-size: 500%;
+  font-weight: 700;
+  font-variant: small-caps;
+}
+
+.caption-position {
+	position: static;
+	margin: 1em 15% 0% 15%;
+  text-align: left;
+  line-height: 180%;
+  font-size: 150%;
+  font-weight: 400;
+  overflow: auto;
+}
+
+@media (max-width: 767px) {
+	.caption-position {
+		line-height: 120%;
+		margin: 0.7em 3% 0% 3%;
+	}
+}
+
+@media (max-width: 991px) {
+	.caption-position {
+		line-height: 160%;
+		margin: 0.7em 7% 0% 7%;
+	}
+}
+
+.projects-info {
+	font-size: 120%; 
+	line-height: 140%;
+	margin-top: 0;
+}
+
+.projects-info p {
+	text-align: left;
+	margin: 1em auto;
+	width: 19em;
+}
+
+.caption-position p span {
+	font-weight: 700;
+	font-size: 120%;
+}
+
+@media (max-width: 767px) {
+	.projects-info {
+		font-size: 120%;
+	}
+}
+
+/* Menu icon */
+
+.btn { 
+	-webkit-transition-duration: 0.3s;
+	-moz-transition-duration: 0.3s;
+	-ms-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+  position: absolute;         
+  margin: 0;
+  padding: 0.4em 0 0 0;
+  border: 0.2em solid;
+  border-radius: 0.3em;
+  height: 3.1em; 
+  width: 3.4em;
+  font-size: 1em;
+	top: 2em;
+	left: 2em;
+	text-align: center;
+	font-weight: 700;
+}
+
+
+/* Menu Button Hover Effects */
+
+.btn:hover {
+	color: #007bb6;
+	border-color: #007bb6;
+	text-decoration: none;
+}
+
+/* Hyperlink Effects */
+
+.hyperlink {
+	padding: 0.5% 0.5% 0% 0.5%;
+	-moz-transition: 0.5s;
+	-webkit-transition: 0.5s;
+	-o-transition: 0.5s;
+	transition: 0.5s;
+	transition: color .2s ease-out, background 0.5s ease-in;
+	font-weight: 700;
+	color: black;
+}
+
+.hyperlink:hover {
+	color: #007bb6;
+	text-shadow: none;
+	text-decoration: none;
+}
+
+/* Social media icons */
+
+.social-media {
+	-webkit-transition-duration: 0.3s;
+	-moz-transition-duration: 0.3s;
+	-ms-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+	color: black;
+}
+
+#linkedin {
+	margin: 0 0.5em 0 0;
+}
+
+#github {
+	margin: 0 0.5em 0 0.5em;
+}
+
+#quora {
+	margin: 0 0.5em 0 0.5em;
+}
+
+#medium {
+	margin: 0 0.5em 0 0.5em;
+}
+
+#twitter {
+	margin: 0 0 0 0.5em;
+}
+
+#resume-header {
+	padding: 2em 2em 0.5em 2em;
+	font-size: 1.6em;
+	font-weight: 700;
+}
+
+#resume-caption {
+	font-size: 1.2em;
+	padding: 0.5em 2em 2em 2em;
+}
+
+.modal-content {
+	box-shadow: none;
+	border: 3px solid black;
+	border-radius: 10px;
+}
+
+.modal-header {
+	border: none;
+}
+
+.social-media:hover {
+	color: #007bb6;
+	cursor: pointer; cursor: hand;
+	text-decoration: none;
+}
+
+/* Menu styles */
+
+.cbp-spmenu {
+	background: #111111;
+	background-color:rgba(0,0,0,0.5);
+	position: fixed;
+	width: 12em !important;
+}
+
+.cbp-spmenu h3 {
+	-webkit-transition-duration: 0.3s;
+	-moz-transition-duration: 0.3s;
+	-ms-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+	color: #A32900;
+	font-size: 2.5em;
+	margin: 2em auto 0 auto;
+	font-weight: 300;
+	text-align: center;
+	height: 3.8em;
+	width: 4em;
+	overflow: hidden;
+	border-radius: 50%;
+}
+
+.cbp-spmenu h3 img {
+	height: 129.7%;
+	margin-left: -0.588em;
+	margin-top: -0.551em;
+}
+
+.cbp-spmenu a.menu-buttons {
+	-webkit-transition-duration: 0.3s;
+	-moz-transition-duration: 0.3s;
+	-ms-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+	display: block;
+	color: white;
+	font-size: 1.2em;
+	font-weight: 300;
+	/*text-align: center;*/
+	/*border-bottom: 0.1em solid gray;*/
+	margin: 0 auto 0 auto;
+	padding: 1em 2.5em 1em 2.5em;
+}
+
+
+/* Highlight menu options on hover */
+
+.cbp-spmenu a:hover {
+  color: #007bb6;
+	/*border-color: white;*/
+	text-decoration: none;
+}
+
+.cbp-spmenu h3:hover {
+	text-decoration: none;
+}
+
+/* Orientation-dependent styles for the content of the menu */
+
+.cbp-spmenu-vertical {
+	width: 25em;
+	height: 100%;
+	top: 0;
+	z-index: 1000;
+}
+
+.cbp-spmenu-vertical a {
+}
+
+/* Vertical menu that slides from the left or right */
+
+.cbp-spmenu-left {
+	left: -25em;
+}
+
+.cbp-spmenu-left.cbp-spmenu-open {
+	left: 0em;
+}
+
+/* Push classes applied to the body */
+
+.cbp-spmenu-push {
+	overflow: hidden;
+	position: relative;
+	left: 0;
+}
+
+.cbp-spmenu-push-toright {
+	left: 25em;
+}
+
+.cbp-spmenu-push-toleft {
+	left: -25em;
+}
+
+/* Transitions */
+
+.cbp-spmenu,
+.cbp-spmenu-push {
+	-webkit-transition: 0.5s;
+	-moz-transition: 0.5s;
+	-ms-transition: 0.5s;
+	-o-transition: 0.5s;
+	transition: 0.5s;
+}
+
+/* Mask */
+
+.mask {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 15;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+body.sml-open nav.cbp-spmenu-left {
+  left: 0
+}
+
+/* Image */
+
+.image-caption {
+	text-align: center;
+	color: #707070;
+	font-size: 0.8em;
+}
+
+/* Experience */
+
+.company-logo {
+	float: left;
+}
+
+.company-logo img {
+	height: 4em;
+}
+
+.company-details {
+	float: left;
+	margin-left: 0.5em;
+	width: calc(100% - 4.5em);
+}
+
+
+
+/* Project pictures */
+
+.wide {
+	width: 75%;
+}
+
+.row .project-caption {
+	text-align: left;
+}
+
+.row .project-caption span {
+	font-size: 1.2em;
+}
+
+.project-title {
+	font-size: 1.2em;
+	font-style: bold;
+}
+
+.image-thumbnail {
+	border: 1px solid #C8C8C8;
+	width: 100%;
+}
+
+@media (max-width: 767px) {
+	.row .col-sm-4 {
+		width: 300px;
+		margin: 1.5em auto 2em auto;
+	}
+}
+
+.link {
+	color: #007bb6;
+}

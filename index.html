@@ -1,415 +1,298 @@
-
-
-
-  
-
-
-
-
-  
-
-
-  
-
 <!DOCTYPE html>
-<html lang="en-us">
-  <head>
-    
+<?php if (substr_count($_SERVER['HTTP_ACCEPT_ENCODING'], 'gzip')) ob_start("ob_gzhandler"); else ob_start(); ?>
+<html>
+	<head>
+		<title>Shivam Yadav</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/bootstrap.min.css" media="screen">
+    <link rel="stylesheet" href="css/custom-styles.css" media="screen">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="generator" content="Hugo 0.18.1">
-    <title>Shivam Yadav</title>
+    <meta name="description" content="Shivam Yadav, is a sophomore at Netaji Subhas Institute of Technology. His interest lies in computer science and mathematics. He is a self-taught programmer and an avid reader.">
     <meta name="author" content="Shivam Yadav">
-    <meta name="keywords" content="">
+		<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-    <link rel="icon" href="https://shivamyadav2512.github.io/favicon.png">
-    
-      <link rel="alternate" type="application/rss+xml" title="RSS" href="https://shivamyadav2512.github.io/index.xml">
-    
+  ga('create', 'UA-62150334-4', 'auto');
+  ga('send', 'pageview');
 
-    
-    <meta name="description" content="Welcome to my website">
-    <meta property="og:description" content="Welcome to my website">
-    <meta property="og:type" content="blog">
-    <meta property="og:title" content="Shivam Yadav">
-    <meta property="og:url" content="/">
-    <meta property="og:site_name" content="Shivam Yadav">
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="Shivam Yadav">
-    <meta name="twitter:description" content="Welcome to my website">
-    
-      <meta name="twitter:creator" content="@shivamyadav2512">
-    
-    
-
-    
-    
-
-    
-      <meta property="og:image" content="//www.gravatar.com/avatar/ab35964e3c924d8e9bf3401c20bada06?s=640">
-    
-
-    
-    
-    
-
-    
-
-    
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/jquery.fancybox.css" />
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/helpers/jquery.fancybox-thumbs.min.css" />
-    
-    
-    <link rel="stylesheet" href="https://shivamyadav2512.github.io/css/style-gwlo24d2hxipxk8bi1sxik0zhlpn9t7ebcmgp9kubmmcjfzlavuyhvbqumhn.min.css" />
-    
-    
-    
-      
-    
-    
-  </head>
-
-  <body>
-    <div id="blog">
-      <header id="header" data-behavior="1">
-  <i id="btn-open-sidebar" class="fa fa-lg fa-bars"></i>
-  <div class="header-title">
-    <a class="header-title-link" href="https://shivamyadav2512.github.io/">Shivam Yadav</a>
-  </div>
-  
-    
-      <a class="header-right-picture "
-         href="https://shivamyadav2512.github.io/#about">
-    
-    
-    
-      
-        <img class="header-picture" src="//www.gravatar.com/avatar/ab35964e3c924d8e9bf3401c20bada06?s=90" alt="Author&#39;s picture" />
-      
-    
-    </a>
-  
-</header>
-
-      <nav id="sidebar" data-behavior="1">
-  <div class="sidebar-container">
-    
-      <div class="sidebar-profile">
-        <a href="https://shivamyadav2512.github.io/#about">
-          <img class="sidebar-profile-picture" src="//www.gravatar.com/avatar/ab35964e3c924d8e9bf3401c20bada06?s=110" alt="Author&#39;s picture" />
-        </a>
-        <h4 class="sidebar-profile-name">Shivam Yadav</h4>
-        
-          <h5 class="sidebar-profile-bio">Programmer | Reader | Engineer</h5>
-        
-      </div>
-    
-    <ul class="sidebar-buttons">
-      
-  <li class="sidebar-button">
-    
-      <a class="sidebar-button-link " href="https://shivamyadav2512.github.io/">
-    
-      <i class="sidebar-button-icon fa fa-lg fa-home"></i>
-      
-      <span class="sidebar-button-desc">Home</span>
-    </a>
-  </li>
-
-  <li class="sidebar-button">
-    
-      <a class="sidebar-button-link " href="https://shivamyadav2512.github.io/categories">
-    
-      <i class="sidebar-button-icon fa fa-lg fa-bookmark"></i>
-      
-      <span class="sidebar-button-desc">Categories</span>
-    </a>
-  </li>
-
-  <li class="sidebar-button">
-    
-      <a class="sidebar-button-link " href="https://shivamyadav2512.github.io/tags">
-    
-      <i class="sidebar-button-icon fa fa-lg fa-tags"></i>
-      
-      <span class="sidebar-button-desc">Tags</span>
-    </a>
-  </li>
-
-  <li class="sidebar-button">
-    
-      <a class="sidebar-button-link " href="https://shivamyadav2512.github.io/archives">
-    
-      <i class="sidebar-button-icon fa fa-lg fa-archive"></i>
-      
-      <span class="sidebar-button-desc">Archives</span>
-    </a>
-  </li>
-
-  <li class="sidebar-button">
-    
-      <a class="sidebar-button-link " href="https://shivamyadav2512.github.io/about">
-    
-      <i class="sidebar-button-icon fa fa-lg fa-question"></i>
-      
-      <span class="sidebar-button-desc">About</span>
-    </a>
-  </li>
-
-    </ul>
-    <ul class="sidebar-buttons">
-      
-  <li class="sidebar-button">
-    
-      <a class="sidebar-button-link " href="https://github.com/shivamyadav2512" target="_blank">
-    
-      <i class="sidebar-button-icon fa fa-lg fa-github"></i>
-      
-      <span class="sidebar-button-desc">GitHub</span>
-    </a>
-  </li>
-
-  <li class="sidebar-button">
-    
-      <a class="sidebar-button-link " href="http://linkedin.com/in/shivamyadav2512" target="_blank">
-    
-      <i class="sidebar-button-icon fa fa-lg fa-linkedin"></i>
-      
-      <span class="sidebar-button-desc">Linkedin</span>
-    </a>
-  </li>
-
-  <li class="sidebar-button">
-    
-      <a class="sidebar-button-link " href="https://shivamyadav2512.github.io/social">
-    
-      <i class="sidebar-button-icon fa fa-lg fa-compass"></i>
-      
-      <span class="sidebar-button-desc">Social Accounts</span>
-    </a>
-  </li>
-
-  <li class="sidebar-button">
-    
-      <a class="sidebar-button-link " href="http://stackoverflow.com/users/7353560/shivam-yadav" target="_blank">
-    
-      <i class="sidebar-button-icon fa fa-lg fa-stack-overflow"></i>
-      
-      <span class="sidebar-button-desc">Stack Overflow</span>
-    </a>
-  </li>
-
-    </ul>
-    <ul class="sidebar-buttons">
-      
-  <li class="sidebar-button">
-    
-      <a class="sidebar-button-link " href="https://shivamyadav2512.github.io/index.xml">
-    
-      <i class="sidebar-button-icon fa fa-lg fa-rss"></i>
-      
-      <span class="sidebar-button-desc">RSS</span>
-    </a>
-  </li>
-
-    </ul>
-  </div>
-</nav>
-
-      
-
-      <div id="main" data-behavior="1"
-        class="
-               hasCoverMetaIn
-               ">
-        <section class="postShorten-group main-content-wrap">
-          
-          
-            
-  
-    
-  
-
-
-  
-
-<article class="postShorten postShorten--thumbnailimg-left" itemscope itemType="http://schema.org/BlogPosting">
-  <div class="postShorten-wrap">
-    
-    <div class="postShorten-header">
-      <h1 class="postShorten-title" itemprop="headline">
-        <a class="link-unstyled" href="https://shivamyadav2512.github.io/2017/03/hello-world/">
-          Hello, World!
-        </a>
-      </h1>
-      <div class="postShorten-meta post-meta">
-  
-    <time itemprop="datePublished" datetime="2017-03-30T00:00:00Z">
-      
-  March 30, 2017
-
-    </time>
-  
-  
-  
-  
-    <span>in</span>
-    
-      <a class="category-link" href="https://shivamyadav2512.github.io/categories/blog">blog</a>, 
-    
-      <a class="category-link" href="https://shivamyadav2512.github.io/categories/tutorials">tutorials</a>
-    
-  
-
-
-</div>
-
-    </div>
-    <div class="postShorten-excerpt" itemprop="articleBody">
-      <p>
-        Customary Hello, World!
-        <br>
-        <a href="https://shivamyadav2512.github.io/2017/03/hello-world/" class="postShorten-excerpt_link link">Continue reading</a>
-        
-      </p>
-    </div>
-  </div>
-  
-    <a href="https://shivamyadav2512.github.io/2017/03/hello-world/">
-      <div class="postShorten-thumbnailimg">
-        <img alt="" itemprop="image" src="//d1u9biwaxjngwg.cloudfront.net/cover-image-showcase/city-750.jpg"/>
-      </div>
-    </a>
-  
-</article>
-
-          
-          
-
-        </section>
-        <footer id="footer" class="main-content-wrap">
-  <span class="copyrights">
-    &copy; 2017 Shivam Yadav. All Rights Reserved
-  </span>
-</footer>
-
-      </div>
-    </div>
-    
-    <div id="about">
-  <div id="about-card">
-    <div id="about-btn-close">
-      <i class="fa fa-remove"></i>
-    </div>
-    
-      <img id="about-card-picture" src="//www.gravatar.com/avatar/ab35964e3c924d8e9bf3401c20bada06?s=110" alt="Author&#39;s picture" />
-    
-    <h4 id="about-card-name">Shivam Yadav</h4>
-    
-      <div id="about-card-bio">Programmer | Reader | Engineer</div>
-    
-    
-      <div id="about-card-job">
-        <i class="fa fa-briefcase"></i>
-        <br/>
-        Student
-      </div>
-    
-    
-      <div id="about-card-location">
-        <i class="fa fa-map-marker"></i>
-        <br/>
-        India
-      </div>
-    
-  </div>
-</div>
-
-    <div id="algolia-search-modal" class="modal-container">
-  <div class="modal">
-    <div class="modal-header">
-      <span class="close-button"><i class="fa fa-close"></i></span>
-      <a href="https://algolia.com" target="_blank" class="searchby-algolia text-color-light link-unstyled">
-        <span class="searchby-algolia-text text-color-light text-small">by</span>
-        <img class="searchby-algolia-logo" src="https://www.algolia.com/static_assets/images/press/downloads/algolia-light.svg">
-      </a>
-      <i class="search-icon fa fa-search"></i>
-      <form id="algolia-search-form">
-        <input type="text" id="algolia-search-input" name="search"
-          class="form-control input--large search-input" placeholder="Search" />
-      </form>
-    </div>
-    <div class="modal-body">
-      <div class="no-result text-color-light text-center">no post found</div>
-      <div class="results">
-        
-        
-          <div class="media">
-            
-            <div class="media-body">
-              <a class="link-unstyled" href="https://shivamyadav2512.github.io/2017/03/hello-world/">
-                <h3 class="media-heading">Hello, World!</h3>
-              </a>
-              <span class="media-meta">
-                <span class="media-date text-small">
-                  Mar 3, 2017
-                </span>
-              </span>
-              <div class="media-content hide-xs font-merryweather">Customary Hello, World!</div>
-            </div>
-            <div style="clear:both;"></div>
-            <hr>
-          </div>
-        
-      </div>
-    </div>
-    <div class="modal-footer">
-      <p class="results-count text-medium"
-         data-message-zero="no post found"
-         data-message-one="1 post found"
-         data-message-other="{n} posts found">
-         1 posts found
-      </p>
-    </div>
-  </div>
-</div>
-    
-  
-    
-    <div id="cover" style="background-image:url('https://shivamyadav2512.github.io/images/cover.jpg');"></div>
-  
-
-
-    
-<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/highlight.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/jquery.fancybox.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/helpers/jquery.fancybox-thumbs.min.js"></script>
-
-
-<script src="https://shivamyadav2512.github.io/js/script-wl33z0n6ocaypepiqrazthtivfrliqijej4rq8ek8gvrv1awftmgjuv8k4zc.min.js"></script>
-
-<script>
-$(document).ready(function() {
-  hljs.configure({ classPrefix: '', useBR: false });
-  $('pre.code-highlight').each(function(i, block) {
-    var code = "";
-    hljs.highlightAuto(block.innerText).value.split(/\r\n|\r|\n/).forEach(function(line) {
-      code += "<span class=\"line\">" + line + "</span><br>";
-    });
-    if (code.length > 0) {
-      block.innerHTML = code;  
-    }
-  });
-  $('pre > code').each(function(i, block) {
-    $(this).addClass('codeblock');
-    hljs.highlightBlock(block);
-  });
-});
 </script>
+	</head>
+	<body>
+
+        <!-- Carousel -->
+          <div id="myCarousel" class="carousel slide" data-interval="false" data-wrap="false">
+
+        <!-- Carousel items -->
+              <div class="carousel-inner">
+                  <div class="item dark-background active">
+                    <div class="container">
+                      <div class="home-heading-position">Shivam Yadav</div>
+
+                      <div class="icons">
+                        <a href="https://www.linkedin.com/in/shivamyadav2512" class="fa fa-linkedin-square fa-2x social-media" id="linkedin"></a>
+                        <a href="https://github.com/shivamyadav2512" class="fa fa-github fa-2x social-media" id="github"></a>
+                        <a href="https://medium.com/@shivamyadav2512" class="fa fa-medium fa-2x social-media" id="medium"></a>
+                        <a href="https://twitter.com/shivamyadav2512" class="fa fa-twitter fa-2x social-media" id="twitter"></a>
+                      </div>
+
+                      <div class="medium-heading">
+                        <span>Articles</span>
+                      </div>
+
+                      <!--<div class="medium-story">
+                        <div class="medium-image">
+                          <a href="https://medium.freecodecamp.com/how-to-land-a-top-notch-tech-job-as-a-student-5c97fec82f3d">
+                            <img src="images/legounicorn.png">
+                          </a>
+                        </div>
+                        <div class="medium-title">
+                          <a href="https://medium.freecodecamp.com/how-to-land-a-top-notch-tech-job-as-a-student-5c97fec82f3d">
+                            Review: Learning how to learn | Coursera
+                          </a>
+                        </div>
+                        <div class="medium-caption">
+                          <a href="https://medium.freecodecamp.com/how-to-land-a-top-notch-tech-job-as-a-student-5c97fec82f3d">
+                            If you understands some of the basic about how your brain works, you can learn more easily and be less frustrated...
+                          </a>
+                        </div>
+                      </div>-->
 
 
-    
-  </body>
+
+                      <div class="email-signup">
+                        More stories coming soon! In the meantime...
+
+                        <br /><br />
+												<!-- Begin MailChimp Signup Form -->
+<link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+	/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+</style>
+<div id="mc_embed_signup">
+<form action="//shivamyadav.us15.list-manage.com/subscribe/post?u=4e653f9e2b25cbbeafbd244dd&amp;id=3e1a834a1a" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+<div class="mc-field-group">
+	<label for="mce-EMAIL">Sign up to get notified when i post new articles <span class="asterisk">*</span>
+</label>
+	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+</div>
+	<div id="mce-responses" class="clear">
+		<div class="response" id="mce-error-response" style="display:none"></div>
+		<div class="response" id="mce-success-response" style="display:none"></div>
+	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_4e653f9e2b25cbbeafbd244dd_3e1a834a1a" tabindex="-1" value=""></div>
+    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+    </div>
+</form>
+</div>
+
+<!--End mc_embed_signup-->
+
+                      </div>
+
+                <!-- Push menu button -->
+                      <div class="main">
+                          <section>
+                              <!-- Class "cbp-spmenu-open" gets applied to menu and "cbp-spmenu-push-toleft" or "cbp-spmenu-push-toright" to the body -->
+                              <div class="toggle-slide-left1 toggle-menu menu-left push-body">
+                                <div class="btn" aria-hidden="true">
+                                  <i class="fa fa-bars fa-2x" aria-hidden="true"></i>
+                                </div>
+                              </div>
+                          </section>
+                      </div>
+
+                    </div>
+                  </div>
+
+                  <div class="item light-background">
+                    <div class="container">
+                      <div class="heading-position">About Me</div>
+
+                      <div class="caption-position">
+                        <img src="images/about.jpg" class="image-thumbnail">
+                        <div class="image-caption">A picture from Narkhanda, Shimla.</div>
+                      </div>
+
+                      <div class="caption-position">
+                        Hi, I am Shivam Yadav, a sophomore undergrad student at Netaji Subhas Institute of Technology. My interest lies in computer science and mathematics and i like building things.
+                      </div>
+
+                      <div class="caption-position">
+                        Other than college, i love reading, travelling and i am a westworld fan.
+                      </div>
+
+
+                <!-- Push menu button -->
+                      <div class="main">
+                          <section>
+                              <!-- Class "cbp-spmenu-open" gets applied to menu and "cbp-spmenu-push-toleft" or "cbp-spmenu-push-toright" to the body -->
+                              <div class="toggle-slide-left2 toggle-menu menu-left push-body">
+                                <div class="btn" aria-hidden="true">
+                                  <i class="fa fa-bars fa-2x" aria-hidden="true"></i>
+                                </div>
+                              </div>
+                          </section>
+                      </div>
+
+                    </div>
+                  </div>
+
+                  <div class="item light-background">
+                    <div class="container">
+                      <div class="heading-position">Experience</div>
+                      <div class="caption-position">
+                        <div class="company-logo">
+                          <img src="images/es.jpeg">
+                        </div>
+                        <div class="company-details">
+                          In <b>Summer 2016</b>, I worked at <b>EssentiallySports</b> as a <b>Tech lead</b> for the technical aspect of the media product.
+                        </div>
+                      </div>
+                      <div class="caption-position">
+                        <div class="company-logo">
+                          <img src="images/surfite.png">
+                        </div>
+                        <div class="company-details">
+                          In <b>Summer 2015</b>, I created a tutorial website named <b>Surfite</b> which contained tutorials on various technical topics.
+                        </div>
+                      </div>
+                      <br />
+
+
+                <!-- Push menu button -->
+                      <div class="main">
+                          <section>
+                              <!-- Class "cbp-spmenu-open" gets applied to menu and "cbp-spmenu-push-toleft" or "cbp-spmenu-push-toright" to the body -->
+                              <div class="toggle-slide-left3 toggle-menu menu-left push-body">
+                                <div class="btn" aria-hidden="true">
+                                  <i class="fa fa-bars fa-2x" aria-hidden="true"></i>
+                                </div>
+                              </div>
+                          </section>
+                      </div>
+
+                    </div>
+                  </div>
+
+                  <div class="item light-background">
+                    <div class="container wide">
+                      <div class="heading-position" style="margin-bottom: 0;">Projects</div>
+                      <div class="projects-info">
+
+                        <div class="row">
+                          <div class="col-sm-6">
+                            <a href="https://github.com/Shivamyadav2512/SMS-bot">
+                              <img src="images/chatbot.png" class="image-thumbnail">
+                            </a>
+                            <div class="project-caption">
+                              <span><a href="https://github.com/Shivamyadav2512/SMS-bot" class="hyperlink">SMS bot</a></span>
+                              <br />
+                              A chatbot that sends free sms using way2sms.
+                            </div>
+                          </div>
+                          <div class="col-sm-6">
+                            <a href="http://www.essentiallysports.com/">
+                              <img src="images/es_project.png" class="image-thumbnail">
+                            </a>
+                            <div class="project-caption">
+                              <span><a href="http://www.essentiallysports.com/" class="hyperlink">EssentiallySports</a></span>
+                              <br />
+                              Revamped and optimised Essentiallysports.com to decrease page loading time and better user experience.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-sm-6">
+                            <a href="http://nsitsolarcar.net/beta/">
+                              <img src="images/nsitsolarcar.png" class="image-thumbnail">
+                            </a>
+                            <div class="project-caption">
+                              <span><a href="http://nsitsolarcar.net/beta/" class="hyperlink">NSIT Solar Car Concept</a></span>
+                              <br />
+                              Developed a website for nsit solar car team to showcase their work and team.
+                            </div>
+                          </div>
+
+                        </div>
+                      </div>
+
+                <!-- Push menu button -->
+                      <div class="main">
+                          <section>
+                              <!-- Class "cbp-spmenu-open" gets applied to menu and "cbp-spmenu-push-toleft" or "cbp-spmenu-push-toright" to the body -->
+                              <div class="toggle-slide-left4 toggle-menu menu-left push-body">
+                                <div class="btn" aria-hidden="true">
+                                  <i class="fa fa-bars fa-2x" aria-hidden="true"></i>
+                                </div>
+                              </div>
+                          </section>
+                      </div>
+
+                    </div>
+                  </div>
+
+                  <div class="item light-background">
+                    <div class="container">
+                      <div class="heading-position">Other</div>
+                      <div class="caption-position">I love reading and travelling. Also i like to hangout with my friends, watching movies (Don't have any preferred genre, i watch'em all), documentaries and TV shows like Westworld and also i am good at roasting...</div>
+
+                <!-- Push menu button -->
+                      <div class="main">
+                          <section>
+                              <!-- Class "cbp-spmenu-open" gets applied to menu and "cbp-spmenu-push-toleft" or "cbp-spmenu-push-toright" to the body -->
+                              <div class="toggle-slide-left5 toggle-menu menu-left push-body">
+                                <div class="btn" aria-hidden="true">
+                                  <i class="fa fa-bars fa-2x" aria-hidden="true"></i>
+                                </div>
+                              </div>
+                          </section>
+                      </div>
+
+                    </div>
+                  </div>
+              </div>
+
+
+
+        <!-- Carousel nav
+              <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                  <span class="glyphicon glyphicon-chevron-left"></span>
+              </a>
+              <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                  <span class="glyphicon glyphicon-chevron-right"></span>
+              </a>
+
+          </div> -->
+
+        <!-- Push Menu -->
+
+          <nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left">
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <a href='#' class="button1 menu-buttons" onClick="javascript:goToSlide(0);">Home</a>
+              <a href='#' class="button2 menu-buttons" onClick="javascript:goToSlide(1);">About Me</a>
+              <a href="#" class="button3 menu-buttons" onClick="javascript:goToSlide(2);">Experience</a>
+              <a href="#" class="button4 menu-buttons" onClick="javascript:goToSlide(3);">Projects</a>
+              <a href="mailto:shivamyadav850580@gmail.com" class="button5 menu-buttons hyperlink">Contact</a>
+
+          </nav>
+
+        <!-- Javascripts -->
+          <script src="http://code.jquery.com/jquery.min.js"></script>
+          <script src="js/bootstrap.min.js"></script>
+          <script src="js/custom-scripts.js"></script>
+          <script src="bower_components/classie/classie.js"></script>
+	</body>
 </html>
