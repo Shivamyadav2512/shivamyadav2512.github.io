@@ -31,58 +31,6 @@ html, body {
 	padding: 0;
 	font-family: 'Raleway', sans-serif;
 }
-.carousel {
-	margin-bottom: 5em;
-}
-.carousel-caption {
-	z-index: 10;
-}
-/*.carousel .carousel-inner .dark-background {
-	background: url('http://i.imgur.com/wGahMvj.jpg') no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-.carousel .carousel-inner .light-background {
-	background: url('http://i.imgur.com/X2PU0Z9.jpg') no-repeat center center fixed;
-	-webkit-background-size: cover; 
-  -moz-background-size: cover;    
-  -o-background-size: cover;      
-  background-size: cover;    
-}
-*/
-/* Fade transition */
-
-.carousel .item {
-	-webkit-transition: opacity 0.5s; 
-	-moz-transition: opacity 0.5s; 
-	-ms-transition: opacity 0.5s; 
-	-o-transition: opacity 0.5s; 
-	transition: opacity 0.5s;
-}
-.carousel .active.left {
-	left: 0;
-	opacity: 0;
-	z-index: 2;
-}
-.carousel .active.right {
-	left: 0;
-	opacity: 0;
-	z-index: 2;
-}
-.carousel .next {
-	left: 0;
-	opacity: 1;
-	z-index: 1;
-}
-.carousel .prev {
-	left: 0;
-	opacity: 1;
-	z-index: 1;
-}
-
-/* Content positioning */
 
 .home-heading-position {
   position: static;
@@ -103,16 +51,16 @@ html, body {
 .medium-heading {
   width: 700px;
   max-width: 100%;
-  text-align: center; 
-  border-bottom: 1px solid #000; 
+  text-align: center;
+  border-bottom: 1px solid #000;
   line-height: 0.1em;
   margin: 2em auto 0 auto;
   font-size: 200%;
-} 
+}
 
-.medium-heading span { 
+.medium-heading span {
   background: #fff;
-  padding: 0 10px; 
+  padding: 0 10px;
 }
 
 .medium-story {
@@ -122,7 +70,7 @@ html, body {
   padding-top: 2em;
   padding-bottom: 2em;
   overflow: auto;
-  border-bottom: 1px solid #000; 
+  border-bottom: 1px solid #000;
 }
 
 .medium-story a {
@@ -201,7 +149,7 @@ html, body {
 }
 
 .projects-info {
-	font-size: 120%; 
+	font-size: 120%;
 	line-height: 140%;
 	margin-top: 0;
 }
@@ -224,19 +172,19 @@ html, body {
 }
 
 /* Menu icon */
-
-.btn { 
+/*
+.btn {
 	-webkit-transition-duration: 0.3s;
 	-moz-transition-duration: 0.3s;
 	-ms-transition-duration: 0.3s;
   -o-transition-duration: 0.3s;
 	transition-duration: 0.3s;
-  position: absolute;         
+  position: absolute;
   margin: 0;
   padding: 0.4em 0 0 0;
   border: 0.2em solid;
   border-radius: 0.3em;
-  height: 3.1em; 
+  height: 3.1em;
   width: 3.4em;
   font-size: 1em;
 	top: 2em;
@@ -244,15 +192,10 @@ html, body {
 	text-align: center;
 	font-weight: 700;
 }
-
+*?
 
 /* Menu Button Hover Effects */
 
-.btn:hover {
-	color: #007bb6;
-	border-color: #007bb6;
-	text-decoration: none;
-}
 
 /* Hyperlink Effects */
 
@@ -331,133 +274,6 @@ html, body {
 	text-decoration: none;
 }
 
-/* Menu styles */
-
-.cbp-spmenu {
-	background: #111111;
-	background-color:rgba(0,0,0,0.5);
-	position: fixed;
-	width: 12em !important;
-}
-
-.cbp-spmenu h3 {
-	-webkit-transition-duration: 0.3s;
-	-moz-transition-duration: 0.3s;
-	-ms-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-	transition-duration: 0.3s;
-	color: #A32900;
-	font-size: 2.5em;
-	margin: 2em auto 0 auto;
-	font-weight: 300;
-	text-align: center;
-	height: 3.8em;
-	width: 4em;
-	overflow: hidden;
-	border-radius: 50%;
-}
-
-.cbp-spmenu h3 img {
-	height: 129.7%;
-	margin-left: -0.588em;
-	margin-top: -0.551em;
-}
-
-.cbp-spmenu a.menu-buttons {
-	-webkit-transition-duration: 0.3s;
-	-moz-transition-duration: 0.3s;
-	-ms-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-	transition-duration: 0.3s;
-	display: block;
-	color: white;
-	font-size: 1.2em;
-	font-weight: 300;
-	/*text-align: center;*/
-	/*border-bottom: 0.1em solid gray;*/
-	margin: 0 auto 0 auto;
-	padding: 1em 2.5em 1em 2.5em;
-}
-
-
-/* Highlight menu options on hover */
-
-.cbp-spmenu a:hover {
-  color: #007bb6;
-	/*border-color: white;*/
-	text-decoration: none;
-}
-
-.cbp-spmenu h3:hover {
-	text-decoration: none;
-}
-
-/* Orientation-dependent styles for the content of the menu */
-
-.cbp-spmenu-vertical {
-	width: 25em;
-	height: 100%;
-	top: 0;
-	z-index: 1000;
-}
-
-.cbp-spmenu-vertical a {
-}
-
-/* Vertical menu that slides from the left or right */
-
-.cbp-spmenu-left {
-	left: -25em;
-}
-
-.cbp-spmenu-left.cbp-spmenu-open {
-	left: 0em;
-}
-
-/* Push classes applied to the body */
-
-.cbp-spmenu-push {
-	overflow: hidden;
-	position: relative;
-	left: 0;
-}
-
-.cbp-spmenu-push-toright {
-	left: 25em;
-}
-
-.cbp-spmenu-push-toleft {
-	left: -25em;
-}
-
-/* Transitions */
-
-.cbp-spmenu,
-.cbp-spmenu-push {
-	-webkit-transition: 0.5s;
-	-moz-transition: 0.5s;
-	-ms-transition: 0.5s;
-	-o-transition: 0.5s;
-	transition: 0.5s;
-}
-
-/* Mask */
-
-.mask {
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 15;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.7);
-}
-
-body.sml-open nav.cbp-spmenu-left {
-  left: 0
-}
-
-/* Image */
 
 .image-caption {
 	text-align: center;
