@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Memories 📸</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="gallery-page">
+    <div class="floating-hearts" id="floatingHearts"></div>
+    
+    <a href="index.html" class="back-button">← Back</a>
+
+    <div class="gallery-container">
+        <h1 class="page-title">Our Beautiful Memories</h1>
+        
+        <div class="carousel">
+            <button class="carousel-btn prev" id="prevBtn">‹</button>
+            
+            <div class="carousel-track-container">
+                <div class="carousel-track" id="carouselTrack">
+                    <div class="carousel-slide active">
+                        <div class="placeholder-image">
+                            <span class="placeholder-icon">📷</span>
+                            <p>Replace with your photo</p>
+                        </div>
+                        <p class="slide-caption">Our first adventure together</p>
+                    </div>
+                    <div class="carousel-slide">
+                        <div class="placeholder-image">
+                            <span class="placeholder-icon">📷</span>
+                            <p>Replace with your photo</p>
+                        </div>
+                        <p class="slide-caption">That perfect sunset moment</p>
+                    </div>
+                    <div class="carousel-slide">
+                        <div class="placeholder-image">
+                            <span class="placeholder-icon">📷</span>
+                            <p>Replace with your photo</p>
+                        </div>
+                        <p class="slide-caption">Laughing together</p>
+                    </div>
+                    <div class="carousel-slide">
+                        <div class="placeholder-image">
+                            <span class="placeholder-icon">📷</span>
+                            <p>Replace with your photo</p>
+                        </div>
+                        <p class="slide-caption">Making memories</p>
+                    </div>
+                    <div class="carousel-slide">
+                        <div class="placeholder-image">
+                            <span class="placeholder-icon">📷</span>
+                            <p>Replace with your photo</p>
+                        </div>
+                        <p class="slide-caption">Forever moments</p>
+                    </div>
+                </div>
+            </div>
+            
+            <button class="carousel-btn next" id="nextBtn">›</button>
+        </div>
+
+        <div class="carousel-dots" id="carouselDots"></div>
+    </div>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox">
+        <span class="lightbox-close" id="lightboxClose">&times;</span>
+        <div class="lightbox-content">
+            <img src="" alt="" id="lightboxImg">
+            <p class="lightbox-caption" id="lightboxCaption"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
